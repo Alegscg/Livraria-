@@ -6,7 +6,7 @@ body{
    font-family: sans-serif;
    margin: 0;
    padding: 0;
-   width: fit-content;
+   
 }
 h1,h2,h3,h4,h5,h6{
    font-family: 'Open Sans', sans-serif;
@@ -95,6 +95,7 @@ button{
 }
 #rodape{
    width: 105%;
+   height: 7%;
    background-color: #333;
    color: #ccc;
    float: left;
@@ -142,4 +143,59 @@ button{
       width: 25%;
       text-align: initial;
    }
+}
+table {
+   background-color: red;
+   margin: 0 auto;
+}
+
+.bodyprodutinho{
+   width: auto;
+}
+#rodape {  
+   position: fixed;
+   bottom:0;
+   left:0;  
+}
+#rodape li a {
+   color: #fff;
+}
+
+@media (max-width: 662px){
+   .bodyprodutinho{
+      background-color: brown;
+   }
+   #menu ul a{
+      color: rgb(214, 200, 5);
+   }
+}
+@media (min-width: 663px) and (max-width: 991.98px){
+   .bodyprodutinho{
+      background-color: rgb(83, 83, 194);
+   }
+   #menu ul a{
+      color: rgb(214, 200, 5);
+   }
+   #topo h2{
+      color: orangered;
+   }
+}
+@media (min-width: 991.99px) and (max-width: 1199.99px){
+   .bodyprodutinho{
+      background-color: rgb(83, 194, 102);
+      text-align: center;
+   }
+   #menu ul a{
+      color: rgb(204, 8, 8);
+   }
+   #topo h2{
+      color: rgb(0, 0, 0);
+   }
+}
+
+#bodysobre{
+   text-align: center;
+   background-image: url("https://img.freepik.com/fotos-premium/homem-macaco-pensando-sobre-fundo-branco-em-fundo-colorido_1368-11733.jpg?w=996");
+   background-repeat: no-repeat;
+   background-size: cover;
 }
